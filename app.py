@@ -233,3 +233,5 @@ elif st.session_state.page==7:
     answering()
     if st.session_state.page==8:
         st.image("gonna be us.png")
+else:
+    st.write("The end <3")
