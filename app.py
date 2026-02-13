@@ -177,8 +177,7 @@ def buildup():
 def popping_question():
     col1, col2, col3 = st.columns([1, 6, 1]) 
     with col2:
-        st.write("he")
-        #st.video("Popping the question.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=True, muted=False, width=650)
+        st.video("Popping the question.mp4", format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=True, muted=False, width=650)
     if st.button("Lemme answer 🫧"):
         st.session_state.page=7
 
@@ -234,6 +233,3 @@ elif st.session_state.page==7:
     answering()
     if st.session_state.page==8:
         st.image("gonna be us.png")
-
-else:
-    st.write("aghhhh invalid")
